@@ -25,7 +25,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_btnOpen_clicked()
 {
 	fullFileName = QFileDialog::getOpenFileName(this,"打开图片",
-		"D:/Clion/Project/OpenCV_Learning/Encrypt/ImageViewer/Resource/Test",
+		"",
 		"Images (*.png *.jpg *.jpeg *.webp *.bmp )");
 	if (fullFileName.isEmpty()){return;}
 
