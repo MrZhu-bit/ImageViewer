@@ -70,6 +70,7 @@ void Login::iniUI()
 	QMetaObject::connectSlotsByName(this);
 
 	setWindowTitle("登录");
+	setWindowIcon(QIcon(":/Resource/Icons/Ubisoft.ico"));
 	resize(300,80);
 }
 void Login::iniSubWin()
@@ -102,6 +103,7 @@ void Login::iniSubWin()
 		this,&Login::on_subFinishBtn_clicked);
 
 	subWin->setWindowTitle("重置账号");
+	subWin->setWindowIcon(QIcon(":/Resource/Icons/Ubisoft.ico"));
 }
 void Login::on_resetBtn_clicked()
 {
