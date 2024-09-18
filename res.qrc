@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/Image/Assassin's Creed Origins.ico</file>
+        <file>Resource/Image/Microsoft 365.ico</file>
+        <file>Resource/Image/Ubisoft.ico</file>
+        <file>Resource/Icons/ToLeft.png</file>
+        <file>Resource/Icons/ToRight.png</file>
+    </qresource>
+</RCC>
